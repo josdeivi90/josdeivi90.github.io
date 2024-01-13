@@ -17,19 +17,19 @@
         content="Plans for MedBest.">
 
 
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://josdeivi90.github.io/">
-        <meta property="og:title" content="Medbest">
-        <meta property="og:description"
-            content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-        <meta property="og:image" content="https://josdeivi90.github.io/images/promt.jpg">
-    
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://www.jordanalex.com/">
-        <meta property="twitter:title" content="Medbest">
-        <meta property="twitter:description"
-            content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
-        <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://josdeivi90.github.io/">
+    <meta property="og:title" content="Medbest">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://josdeivi90.github.io/images/promt.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Medbest">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
 
 
 
@@ -40,10 +40,21 @@
             <div class="nav__logo">
                 <h2 class="nav__title">MedBest</h2>
             </div>
+            <ul class="flags__languange flags__languange--menu">
+                <div class="flags__item" data-language="es">
+                    <img src="./images/es.svg" alt="">
+                </div>
+                <div class="flags__item" data-language="gb">
+                    <img src="./images/gb.svg" alt="">
+                </div>
+            </ul>
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Main</a>
+                    <a href="#" class="nav__links">Home</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Services</a>
                 </li>
                 <li class="nav__items">
                     <a href="#" class="nav__links">About us</a>
@@ -52,7 +63,10 @@
                     <a href="#" class="nav__links">Contact</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Services</a>
+                    <a href="#" class="nav__links">Log in</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Sing in</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -63,9 +77,9 @@
             </div>
         </nav> 
         <section class="hero__container container">
-            <h1 class="hero__title">MedBest insurance company</h1>
-            <p class="hero__paragraph">Information about company</p>
-            <a href="#" class="cta">Join Us</a>
+            <h1 class="hero__title"></h1>
+            <p class="hero__paragraph"></p>
+            <a href="#" class="cta">Become a member</a>
         </section>
 
     </header>
@@ -80,20 +94,74 @@
                     <img src="./images/individual.jpg" class="about__icon">
                     <h3 class="about__title">Individual Plan</h3>
                     <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia minima tempore eum officiis?</p>
+                    <h3 class="price__price">1USD/mo</h3>
+    
+                        <div class="price_items">
+                            <p class="price feautures">feautures1</p>
+                            <p class="price feautures">feautures2</p>
+                            <p class="price feautures">feautures3</p>
+                        </div>
+                    <a href="#" class="cta">Get plan</a>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/family 3.jpg" class="about__icon">
                     <h3 class="about__title">Familiar Plan</h3>
                     <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia minima tempore eum officiis?</p>
+                    <a href="#" class="cta">Get plan</a>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/premium.jpg" class="about__icon">
                     <h3 class="about__title">Premium Plan</h3>
                     <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia minima tempore eum officiis?</p>
+                    <a href="#" class="cta">Get plan</a>
                 </article>
             </div>
+        <section class="price container">
+                <h2 class="subtitle">Get the best plan for your family</h2>
+    
+                <div class="price__table">
+                    <div class="price__element">
+                        <p class="price__name">Plan 1</p>
+                        <h3 class="price__price">1USD/month</h3>
+    
+                        <div class="price_items">
+                            <p class="price feautures">feautures1</p>
+                            <p class="price feautures">feautures2</p>
+                            <p class="price feautures">feautures3</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Get Plan</a>
+                    </div>
+    
+                    <div class="price__element price__element--best">
+                        <p class="price__name">Plan 2</p>
+                        <h3 class="price__price">10USD/month$</h3>
+    
+                        <div class="price_items">
+                            <p class="price feautures">feautures1</p>
+                            <p class="price feautures">feautures2</p>
+                            <p class="price feautures">feautures3</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Get Plan</a>
+                    </div>
+    
+                    <div class="price__element">
+                        <p class="price__name">Plan 3</p>
+                        <h3 class="price__price">100USD/month</h3>
+    
+                        <div class="price_items">
+                            <p class="price feautures">feautures1</p>
+                            <p class="price feautures">feautures2</p>
+                            <p class="price feautures">feautures3</p>
+                        </div>
+    
+                        <a href="#" class="price__cta">Get Plan</a>
+                    </div>
+                </div>
+        </section>
         </section>
         <section class="knowledge">
             <div class="knowledge__container container">
@@ -107,50 +175,6 @@
                     <img src="./images/family 4.jpg" class="knowledge__img">
                 </figure>
 
-            </div>
-        </section>
-        <section class="price container">
-            <h2 class="subtitle">Get the best plan for your family</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name">Plan 1</p>
-                    <h3 class="price__price">1USD/month</h3>
-
-                    <div class="price_items">
-                        <p class="price feautures">feautures1</p>
-                        <p class="price feautures">feautures2</p>
-                        <p class="price feautures">feautures3</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Get Plan</a>
-                </div>
-
-                <div class="price__element price__element--best">
-                    <p class="price__name">Plan 2</p>
-                    <h3 class="price__price">10USD/month$</h3>
-
-                    <div class="price_items">
-                        <p class="price feautures">feautures1</p>
-                        <p class="price feautures">feautures2</p>
-                        <p class="price feautures">feautures3</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Get Plan</a>
-                </div>
-
-                <div class="price__element">
-                    <p class="price__name">Plan 3</p>
-                    <h3 class="price__price">100USD/month</h3>
-
-                    <div class="price_items">
-                        <p class="price feautures">feautures1</p>
-                        <p class="price feautures">feautures2</p>
-                        <p class="price feautures">feautures3</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Get Plan</a>
-                </div>
             </div>
         </section>
         <section class="testimony">
