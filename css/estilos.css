@@ -510,6 +510,38 @@ body {
     width: 30px;
 }
 
+/*Terminos y condiciones de cookies*/
+.cookie-banner {
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    max-width: 400px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.cookie-banner a {
+    color: #007bff;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+.accept-cookies {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+ 
+ 
+
 @media (max-width:800px){
     .nav__menu{
         display: block;
