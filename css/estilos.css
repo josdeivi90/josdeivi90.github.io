@@ -56,12 +56,19 @@ body {
 .flags__item{
     width: 30px;
     justify-content: space-between;
-    gap: 2em;
 }
 
 .flag__img{
     display: block;
     cursor: pointer;
+    margin-left: auto;
+}
+
+.text__lang{
+    gap: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 
 
@@ -417,7 +424,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #afc5ee;
 }
 
 .footer__title{
