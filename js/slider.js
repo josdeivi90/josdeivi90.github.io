@@ -28,4 +28,14 @@
 
     }
 
+    // Función para cambiar automáticamente cada 4 segundos
+    const autoChange = () => {
+        setInterval(() => {
+            changePosition(1);
+        }, 8000);
+    };
+
+    // Iniciar cambio automático
+    autoChange();
+
 })();
