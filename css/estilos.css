@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .container{
@@ -36,8 +37,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #ffffff8c 0%, #ffffff8c 100% ), url('../images/promt.jpg');
-    background-size: cover;
+    background-image: linear-gradient(180deg, #7979798c 0%, #7979798c 100% ), url('../images/promt.jpg');
+    background-size:contain;
+    background-attachment:local;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     z-index: -1;
     ;
@@ -547,12 +549,12 @@ body {
 @media (max-width:800px){
     .nav__menu{
         display: block;
-        color: #e5e5f7;
+        color: #ffffff;
     }
 
     .nav__link--menu{
         position: fixed;
-        background-color: #afc5ee;
+        background-color: #e27a7a;
         top: 0;
         left: 0;
         height: 100%;
