@@ -547,11 +547,12 @@ body {
 @media (max-width:800px){
     .nav__menu{
         display: block;
+        color: #e5e5f7;
     }
 
     .nav__link--menu{
         position: fixed;
-        background-color: #000;
+        background-color: #afc5ee;
         top: 0;
         left: 0;
         height: 100%;
@@ -579,6 +580,7 @@ body {
         width: 30px;
         cursor: pointer;
     }
+    
 
     .hero__title{
         font-size: 2.5rem;
